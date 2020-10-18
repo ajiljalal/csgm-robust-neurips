@@ -1,0 +1,3 @@
+[submodule "pytorch_GAN_zoo"]
+	path = pytorch_GAN_zoo
+	url = https://github.com/facebookresearch/pytorch_GAN_zoo.git
