@@ -1,13 +1,20 @@
-# Compressed Sensing Using Full Dimensional, Approximate Priors
+# Robust Compressed Sensing using Generative models
 
-
-## Steps to reproduce the results
-NOTE: Please run **all** commands from the root directory of the repository, i.e from ```cs-full/```
+## Setup
+---
+1. Run ```git submodule init```
+1. Run ```git submodule update```
+1. Run ```python3.6 -m venv env```
+1. Run ```source env/bin/activate```
+1. Run ```pip install -r requirements.txt```
 
 ---
 
-1. Run ```sh setup.sh```
-1. Run ```source env/bin/activate```
+## Steps to reproduce the results
+NOTE: Please run **all** commands from the root directory of the repository, i.e from ```csgm-robust-neurips/```
+
+---
+
 1. Run ```sh ./utils/run_sequentially.sh```
 1. The Jupyter notebook in ```src/metric.ipynb``` contains a notebook to view quantitave results.
 1. For qualitative results, run ```python src/view_estimated_celeba.py```
