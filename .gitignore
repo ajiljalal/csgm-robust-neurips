@@ -1,0 +1,11 @@
+*.ipynb
+*.pyc
+data/
+env/
+estimated/
+test_images/
+models/
+*.tar.gz
+*.png
+lpips/weights
+*backup*
